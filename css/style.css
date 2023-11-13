@@ -1,0 +1,670 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #29303b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    max-height: 10vh;
+    background-color: #000000de;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    max-width: 30vw;
+}
+
+.menu i {
+    font-size: 16px;
+}
+
+.ticket {
+    font-size: 16px;
+    padding: 8px;
+    background-color: #06f0b2;
+    color: #29303b;
+    border: 2px solid #06f0b2;
+    border-radius: 5px;
+}
+
+.img {
+    background-image: url(https://www.rmg.co.uk/sites/default/files/styles/full_width_2600/public/2021-09/Dugi%20Otok%20-%20Variant%20A%20%C2%A9%20Ivan%20Vucetic%20Astronomy%20Photographer%20of%20the%20Year%202021%20Skyscapes%20shortlist.jpeg?itok=PU3xu8Q2);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.logopub {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.textbox {
+    margin: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.principal {
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#b1 {
+    padding: 16px;
+}
+
+.central {
+    margin: 1rem;
+}
+
+.info {
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    margin: 24px;
+}
+
+
+.info p {
+    padding: 0.5rem;
+    margin: 1.8rem 1rem 2.5rem 1rem;
+}
+
+.topcard {
+    text-align: center;
+    background-color: #06f0b2;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.bottomcard {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.start {
+    margin: 0px 0px 10px;
+    padding: 11.49px 24.5px;
+    width: 80%;
+    background-color: #06f0b2;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.container {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #06f0b2;
+    margin: 1.5rem;
+}
+
+.container h1,
+p {
+    font-weight: bold;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.sub {
+    background-color: #06f0b2;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 11.49px 8px;
+    width: 80%;
+}
+
+.objVenda {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid white;
+    margin: 3.438rem 1.2rem 0rem 1.2rem;
+    border-radius: 5px;
+}
+
+.product2{
+    display: flex;
+    justify-content: space-between;
+    margin: 3.438rem 1.2rem 0rem 1.2rem;
+    border-radius: 5px;
+}
+
+.text {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+
+h2 {
+    margin-top: -5px;
+    padding-top: 1.5rem;
+}
+
+.compre {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.noBorder {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+
+.marketing {
+    border: 2px solid aqua;
+    margin: 3.438rem 1.2rem 3.438rem 1.2rem;
+    border-radius: 12px;
+    position: relative;
+}
+
+.softHouse {
+    border-radius: 12px;
+    width: 100%;
+    height: 90vh;
+}
+
+.softHouse h1 {
+    margin-top: 0px;
+}
+
+.textHouse {
+    position: absolute;
+    bottom: 0%;
+    margin: 0.5rem;
+    color: gold;
+}
+
+.contact {
+    background: linear-gradient(to right bottom, #0d0d0d, #1a1a1a);
+    width: 70vw;
+    border: 2px solid #4d2363;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, border 0.3s ease, transform 0.2s ease;
+}
+
+.contact:hover {
+    background: linear-gradient(to right bottom, #1a1a1a, #2d2d2d5e);
+    border-color: #735a8f;
+    transform: scale(1.05);
+}
+
+.alinha {
+    display: flex;
+    justify-content: center;
+}
+
+.errado {
+    display: flex;
+    justify-content: center;
+}
+
+.marca {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boximg {
+    border-radius: 12px;
+    width: 30vw;
+    height: 10vh;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: 3.438rem 1.2rem 3.438rem 1.2rem;
+    color: white;
+}
+
+.aboutMe a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding-top: 8px;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 2rem;
+    color: white;
+}
+
+.cadastro {
+    margin: 3.478rem 1rem 1.5rem 1.5rem;
+}
+
+.inicio {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.top {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.top i {
+    font-size: 12px;
+    margin: 6px
+}
+
+footer {
+    background-color: black;
+}
+
+.errado h2 {
+    color: white;
+    padding-bottom: 0.75rem;
+}
+
+@media (min-width: 425px) and (max-width: 500px) {
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .about {
+        min-width: 75vw;
+    }
+
+    .container {
+        min-width: 75vw;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:600px) and (max-width: 700px) {
+    .gambiarra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        width: 85vw;
+    }
+
+    .container {
+        width: 85vw;
+    }
+
+    .store {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 85vw;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*v- ta com problema em dois cards -v*/
+@media (min-width:700px) and (max-width: 768px) {
+    .gambiarra {
+        display: flex;
+        align-items: center;
+    }
+
+    .info{
+        width: 45vw;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 1.5rem;
+    }
+
+    .container {
+        display: flex;
+        width: 45vw;
+        height: 85vh;
+        margin-top: 55px;
+    }
+
+    .container p{
+        margin: 28.8px 16px 40px;
+        padding: 8px;
+    }
+
+    .sub{
+        padding: 11.49px 24.5px;
+        margin: 0px 0px 10px;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 75vw;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px){
+    .gambiarra {
+        display: flex;
+        align-items: center;
+    }
+
+    .info {
+        width: 45vw;
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 1.5rem;
+    }
+
+    .container {
+        width: 45vw;
+    }
+
+    .container p{
+        margin: 28.8px 16px 40px;
+        padding: 8px;
+    }
+
+    .sub{
+        padding: 11.49px 24.5px;
+        margin: 0px 0px 10px;
+    }
+
+    .products {
+        display: flex;
+    }
+
+    .product {/*leiamais */
+        width: 30vw;
+    }
+
+    .product-pc{
+        width: 30vw;
+        border: 3px solid white;
+        border-radius: 5px;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .product-pc{
+            display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menuPC{
+        display: none;
+    }
+    #hasbulla{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1023px){
+    .menu{
+        display: none;
+    }
+}
+
+
+
+@media (min-width:1024px) and (max-width: 9999px){
+    p{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+    .img{
+        height: 75vh;
+    }
+    
+    .gambiarra {
+        display: flex;
+        align-items: center;
+    }
+
+    .info {
+        width: 45vw;
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 1.5rem;
+    }
+
+    .container {
+        width: 45vw;
+    }
+
+    .container p{
+        margin: 28.8px 16px 40px;
+        padding: 8px;
+    }
+
+    .sub{
+        padding: 11.49px 24.5px;
+        margin: 0px 0px 10px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .product {
+        width: 28vw;
+        border: none;
+    }
+
+    .product-pc{
+        width: 28vw;
+        margin:0rem 1rem;
+    }
+
+    .marketing{
+        border: none;
+    }
+
+    .alinha{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact{
+        border: 3px solid white;
+        background: #7005eb;
+        padding: 1rem;
+        width: 20vw;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conheca{
+        display: flex;
+    }
+
+    .menuPC a{
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0rem 5.5rem;
+        color: white;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 9999px){
+    .img{
+        height: 75vh;
+    }
+    
+    .gambiarra {
+        display: flex;
+        align-items: center;
+    }
+
+    .info {
+        width: 45vw;
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 1.5rem;
+    }
+
+    .container {
+        width: 45vw;
+    }
+
+    .container p{
+        margin: 28.8px 16px 40px;
+        padding: 8px;
+    }
+
+    .sub{
+        padding: 11.49px 24.5px;
+        margin: 0px 0px 10px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .product {
+        width: 28vw;
+        border: none;
+    }
+
+    .product-pc{
+        width: 28vw;
+        margin:0rem 1rem;
+    }
+
+    .marketing{
+        border: none;
+    }
+
+    .alinha{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact{
+        border: 3px solid white;
+        background: #7005eb;
+        padding: 1rem;
+        width: 20vw;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conheca{
+        display: flex;
+    }
+
+    .menuPC a{
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0rem 5.5rem;
+        color: white;
+    }
+
+    .ivens{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hasbulla{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
